@@ -1,0 +1,115 @@
+.signIn-container {
+  width: 375px;
+  height: 812px;
+  background-color: #ffffff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.signIn-avatar {
+  width: 264px;
+  height: 50px;
+  margin-left: 55px;
+  margin-right: 56px;
+  margin-bottom: 90px;
+}
+
+.signIn-button {
+  width: 224px;
+  height: 36px;
+  border-radius: 100px;
+  background: #f7b348;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin-top: 90px;
+}
+
+.input-item-container {
+  position: relative;
+  margin: 40px 0;
+}
+
+.phoneInput {
+  width: 343px;
+  border: 1px solid #ffd37d;
+  border-radius: 5px;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 800;
+  color: #000000;
+  outline: none;
+}
+
+.phoneInputInput {
+  height: 90px;
+  border: 0px;
+  border-color: #ffffff;
+}
+
+.react-tel-input .flag-dropdown {
+  background-color: #ffffff;
+  border: 0px;
+}
+
+.react-tel-input .form-control {
+  border: 0px;
+}
+
+.label-item {
+  position: absolute;
+  top: 0;
+  font-size: 30px;
+  margin: 10px;
+  padding: 0 10px;
+  background-color: #ffffff;
+  -webkit-transition: top 0.2s ease-in-out, font-size 0.2s ease-in-out;
+  transition: top 0.2s ease-in-out, font-size 0.2s ease-in-out;
+}
+
+.phoneInput:focus + label,
+.phoneInput:not(:placeholder-shown) + label {
+  top: -20px;
+  left: 20px;
+  font-size: 12px;
+  color: #333;
+}
+
+.welcome-heading {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.welcome-para {
+  color: #666;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 60px;
+}
+
+.signIn-para {
+  color: #999;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
